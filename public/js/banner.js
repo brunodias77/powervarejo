@@ -1,3 +1,5 @@
-const imgBanner = document.querySelector(".img-banner");
-console.log(imgBanner);
-imgBanner.style.backgroundImage = `url("img/2.png")`;
+let currentSlide = 0;
+let totalSlide = 2;
+
+const dots = document.querySelectorAll(".btn-banner");
+console.log(dots);
