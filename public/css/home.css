@@ -195,6 +195,7 @@ a {
   background-color: var(--white);
   display: block;
   color: var(--grey-200);
+  z-index: 9;
 }
 .all-categories-dropdown {
   width: 965px;
